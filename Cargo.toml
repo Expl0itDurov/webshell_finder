@@ -1,0 +1,12 @@
+[package]
+name = "ShellFinder"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = { version = "*", features = ["blocking"]}
+rayon = "*"
+regex = "*"
+once_cell = "1.19"
+indicatif = "0.17"
+colored = "*"
